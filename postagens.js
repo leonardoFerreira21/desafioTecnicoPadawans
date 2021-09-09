@@ -6,6 +6,9 @@ var table = document.getElementById("result");
 
             
 
+
+            
+
             
             fetch('https://jsonplaceholder.typicode.com/posts')
             .then((res)=>{

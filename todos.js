@@ -7,6 +7,8 @@ var table = document.getElementById("resultTodos");
             .then((res)=>{
                 return res.json()
             })
+
+            
             .then((post)=>{
                 for(let index = 0; index < 200; index++){
                     table.innerHTML+= `

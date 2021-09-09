@@ -7,6 +7,7 @@ var div2 = document.getElementById("idAlbum");
             .then((res)=>{
                 return res.json()
             })
+            
             .then((post)=>{
                 for(let index = 0; index < 100; index++){
                     div2.innerHTML+= `

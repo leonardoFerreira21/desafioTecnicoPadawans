@@ -9,6 +9,9 @@ async function getResponse(){
     let key;
 
     for(key in content){
+
+
+        
         list.innerHTML+=`
         <div class="card col-3 m-1 mx-auto">
                     <img class="card-img-top" src="${content[key].thumbnailUrl}">
